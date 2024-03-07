@@ -1,6 +1,7 @@
 import App from '../App';
 import Card1 from '../cards/card1/Card1';
-import Card from '../cards/card2/Card';
+import Card2 from '../cards/card2/Card';
+import Card3 from '../cards/card3/Card';
 
 export const RouterInfo = [
     {
@@ -11,5 +12,6 @@ export const RouterInfo = [
         path: '/card1',
         element: <Card1 />,
     },
-    { path: '/card2', element: <Card /> },
+    { path: '/card2', element: <Card2 /> },
+    { path: '/card3', element: <Card3 /> },
 ];
